@@ -65,16 +65,8 @@ body{
 
 #logo {
   display: inline-block;
-  width: 90px;
+  width: 1000px;
 
-}
-
-.geo1 {
-  stroke-dasharray: 400;
-}
-
-.geo2 {
-  stroke-dasharray: 400;
 }
 
 p.button {

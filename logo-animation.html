@@ -8,18 +8,17 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<div class="container">
-	<div class="geo" style="text-align:center;padding:150px 0">
-	<object>
-		<embed src="paths.svg">
-		<embed src="triangle.svg">
-	</object>
+<svg id="logo" width="1000" height="1000" text-align="center">
+  <rect class="three" x="0" y="0" width="400" height="400" fill="#56A0D3"></rect>
+  <rect class="two" x="50" y="50" width="300" height="300" fill="#ffffff"></rect>
+  <rect class="two" x="100" y="100" width="200" height="200" fill="#56A0D3"></rect>
+  <rect class="one" id="inner" x="150" y="150" width="150" height="50" fill="#fff"></rect>
+</svg>
 
-	</div>
-</div>
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/velocity.min.js"></script>
-	<script src="js/svg.js"></script>
+	<script src="js/logoanimation.js"></script>
+
 </body>
 </html>
