@@ -57,20 +57,44 @@ body{
     background-color:black;
 }
 
-	#artboard-1 {
-		stroke-dasharray: 800;
-		strong-dashoffset: 0;
-		-webkit-animation: dash 2s linear forwards;
-		-o-animation: dash 2s linear forwards;
-		-moz-animation: dash 2s linear forwards;
-		animation: dash 2s linear forwards;
-		}
+#container2 {
+	margin: 60px auto 0 auto;
+  	text-align: center;
+  	width: 180px;
+}
 
-		@-webkit-keyframes-dash {
-			from {
-			stroke-dashoffset: 800;
-			}
-			to {
-			stroke-dashoffset: 0;
-			}
-		}
+#logo {
+  display: inline-block;
+  width: 90px;
+
+}
+
+.geo1 {
+  stroke-dasharray: 400;
+}
+
+.geo2 {
+  stroke-dasharray: 400;
+}
+
+p.button {
+  color: #36a7d8;
+  cursor: pointer;
+  border: 2px solid #36a7d8;
+  display: inline-block;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  margin-top: 30px;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  
+  @include transition(all .15s ease-in-out);
+  
+  &:hover {
+    background: #36a7d8;
+    border-color: #36a7d8;
+    color: #fff;
+  }
+}

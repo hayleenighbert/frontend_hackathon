@@ -1,28 +1,7 @@
-<!-- <defs>
-	<style>
-
-		artboard-1 {
-		stroke-dasharray: 800;
-		strong-dashoffset: 0;
-		-webkit-animation: dash 2s linear forwards;
-		-o-animation: dash 2s linear forwards;
-		-moz-animation: dash 2s linear forwards;
-		animation: dash 2s linear forwards;
-		}
-
-		@-webkit-keyframes-dash {
-			from {
-			stroke-dashoffset: 800;
-			}
-			to {
-			stroke-dashoffset: 0;
-			}
-		}
-</style> -->
-<svg class="artboard-1"
+<svg
   xmlns='http://www.w3.org/2000/svg'
   viewBox='0 0 64 64'
-  width='64' height='64'
-  fill='currentcolor'>
-  <path d='M4 10 L32 16 L60 10 L40 32 L32 58 L24 32 Z' />
+  width='500' height='500'
+  fill='white'>
+  <path class="geo" d='M4 10 L32 16 L60 10 L40 32 L32 58 L24 32 Z' />
 </svg>
