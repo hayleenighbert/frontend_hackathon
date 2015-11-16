@@ -1,11 +1,12 @@
 body {
-  font-family: "Helvetica Neue", Helvetica;
+/*  font-family: "Helvetica Neue", Helvetica;*/
   width: 90%;
   font-weight: 200;
   letter-spacing: 1px;
   margin: 25px auto 0 auto;
-  background: rgb(234, 235, 235);
-  color: rgb(25, 25, 25);
+  background-color: black;
+/*  background: rgb(234, 235, 235);
+  color: rgb(25, 25, 25);*/
 }
 
 
@@ -33,6 +34,19 @@ body {
   height:400px;
   background-size: cover;
   background-image: url("http://themesinmotion.com/wp-content/uploads/2012/06/Kawaii-Faces-8.png");
+
+}
+
+#welcome {
+	top: 25%;
+    left: 25%;
+    position: absolute;
+    vertical-align: center;
+  display: inline-block;
+  width: 800px;
+  height:400px;
+  background-size: cover;
+  background background-color: black;
 
 }
 
