@@ -1,3 +1,8 @@
+// var Engine = require('velocity').Engine
+// var engine = new Engine( {{options}} )
+// var result = engine.render( {{context}} )
+// console.log(result)
+
 $("#rect")
     .delay(500)
     .velocity({ x: "+=200", y: "25%" })
@@ -6,9 +11,9 @@ $("#rect")
     .velocity({ rotateZ: 90, scaleX: 0.5 })
     .velocity("reverse", { delay: 250 });
 
-$("div").velocity({
-    left: "500px",
-}, {
-    duration: 3000, 
-    easing: "linear"
-});  
+// $("div").velocity({
+//     left: "500px",
+// }, {
+//     duration: 3000, 
+//     easing: "linear"
+// });  

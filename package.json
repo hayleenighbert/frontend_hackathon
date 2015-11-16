@@ -1,0 +1,23 @@
+{
+  "name": "frontend_hackathon",
+  "version": "1.0.0",
+  "description": "This is a front end project created for WDI at General Assembly. I played around with interesting effects using Velocity.js and vector animations (SVG). Velocity.js is a library that loads and performs faster animations than jQuery and adds more customization and control over the UI.",
+  "main": "index.js",
+  "dependencies": {
+    "velocity-animate": "^1.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayleenighbert/frontend_hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayleenighbert/frontend_hackathon/issues"
+  },
+  "homepage": "https://github.com/hayleenighbert/frontend_hackathon#readme"
+}
