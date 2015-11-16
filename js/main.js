@@ -1,21 +1,14 @@
-  // create svg drawing
-  // var svg = d3.select('body').append('svg');
-  var draw = SVG('drawing')
+$("#rect")
+    .delay(500)
+    .velocity({ x: "+=200", y: "25%" })
+    .velocity({ fillGreen: 255, strokeWidth: 2 })
+    .velocity({ height: 50, width: 50 })
+    .velocity({ rotateZ: 90, scaleX: 0.5 })
+    .velocity("reverse", { delay: 250 });
 
-  // create image
-  var image = draw.image('http://amazingthailandholidays.com/wp/wp-content/uploads/2013/09/beach-koh-samui_780x322.jpg')
-  image.size(650, 650).y(-150)
-
-  // create text
-  var text = draw.text('SVG.JS').move(300, 0)
-    text.font({
-    family: 'Source Sans Pro',
-    size: 180,
-    anchor: 'middle',
-    leading: 1
-  })
-
-  // clip image with text
-  image.clipWith(text)
-
-  console.log("hello!")
+$("div").velocity({
+    left: "500px",
+}, {
+    duration: 3000, 
+    easing: "linear"
+});  
