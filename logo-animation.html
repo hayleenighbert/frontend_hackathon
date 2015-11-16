@@ -14,15 +14,23 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<svg id="logo" width="600" height="600" vertical-align="center">
+  <div class="navbar-fixed cyan darken-2">
+    <nav>
+      <div class="nav-wrapper cyan darken-2">
+        <a href="index.html" class="brand-logo">Animations</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="logo-animation.html">Drop</a></li>
+          <li><a href="burst.html">Burst</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+<svg id="logo" width="600" height="600">
   <rect class="three" x="0" y="0" width="400" height="400" fill="black"></rect>
   <rect class="two" x="50" y="50" width="300" height="300" fill="#ffffff"></rect>
   <rect class="two" x="100" y="100" width="200" height="200" fill="green"></rect>
   <rect class="one" id="inner" x="150" y="150" width="100" height="100" fill="pink"></rect>
 </svg>
-
-
-<a href="index.html">Go back</a>
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/velocity.min.js"></script>
