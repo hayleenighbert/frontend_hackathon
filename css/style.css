@@ -57,3 +57,20 @@ body{
     background-color:black;
 }
 
+	#artboard-1 {
+		stroke-dasharray: 800;
+		strong-dashoffset: 0;
+		-webkit-animation: dash 2s linear forwards;
+		-o-animation: dash 2s linear forwards;
+		-moz-animation: dash 2s linear forwards;
+		animation: dash 2s linear forwards;
+		}
+
+		@-webkit-keyframes-dash {
+			from {
+			stroke-dashoffset: 800;
+			}
+			to {
+			stroke-dashoffset: 0;
+			}
+		}
