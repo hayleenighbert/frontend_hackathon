@@ -1,7 +1,8 @@
-  
+// $(document).ready(function()
+
 $(".one")
   .delay(2500)
-  .velocity({rotateZ: "10deg"})
+  .velocity({rotateZ: "360deg"})
   .delay(500)
   .velocity({x: "+=20", y: "100%" });
 

@@ -19,7 +19,7 @@ function startMagic() {
         };
         $(this).velocity(translation, {
             /* Velocity's default options */
-            duration: 4000,
+            duration: 6000,
             easing: "swing",
             queue: "",
             begin: undefined,
