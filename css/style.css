@@ -64,29 +64,13 @@ body{
 }
 
 #logo {
+	top: 25%;
+    left: 25%;
+    position: absolute;
   display: inline-block;
-  width: 1000px;
+  width: 400px;
+  height:400px;
+  background-size: cover;
+  background-image: url("http://themesinmotion.com/wp-content/uploads/2012/06/Kawaii-Faces-8.png");
 
-}
-
-p.button {
-  color: #36a7d8;
-  cursor: pointer;
-  border: 2px solid #36a7d8;
-  display: inline-block;
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: .08em;
-  margin-top: 30px;
-  padding: 6px 10px;
-  text-transform: uppercase;
-  
-  @include transition(all .15s ease-in-out);
-  
-  &:hover {
-    background: #36a7d8;
-    border-color: #36a7d8;
-    color: #fff;
-  }
 }
